@@ -1,0 +1,229 @@
+
+
+.profile-container{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-width: fit-content;
+    
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.profile-details-name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.profile-details-role h1{
+    
+    font-size: 40px;
+    font-family: cursive;
+
+}
+.primary-text{
+    color: var(--white);
+}
+.highlighted-text{
+    color: var(--dark-orange);
+}
+.profile-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+
+}
+.profile-options .highlighted-btn{
+margin: 0 0 0 28px;
+}
+.profile-options .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color: cornsilk ;
+    color: #111;
+    }
+    .profile-picture{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 1px 0px 0px var(--white) ;
+         border-radius: 50%; 
+         height: 380px;
+         width: 380px;
+         margin: 100px 0px 0 100px;
+    }
+    .profile-picture-background{
+        height: 92%;
+        width: 92%;
+    background-image: url("../../assets/Home/photo.jpg");
+        background-size:cover;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .profile-picture-background:hover{
+        transform: scale(1.07);
+        transition: 1s ease-out;
+
+    }
+    
+    
+    
+    
+    
+    
+    
+     .cols-icon i {
+        color: white;
+        padding: 10px;
+        padding-left: 0px;
+        
+    }
+     .cols-icon i:hover{
+        transform: scale(1.5);
+    }
+    
+    
+   
+     
+        
+
+
+
+
+    @media screen and (max-width: 1110px) {
+        .profile-picture{
+            margin: 0 0px 0 80px;
+        }
+        .profile-details-name{
+            font-size: 20px;
+        }
+        .profile-details-role .primary-text{
+            font-size: 12px;
+        }
+        .profile-options .btn{
+            width: 120px;
+            padding: 11px 0;
+            z-index: 700;
+        }
+        
+    }
+    @media screen and (max-width:910px) {
+
+    .profile-picture{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+        
+    }
+    @media screen and (max-width: 810px) {
+        .profile-picture{
+            margin: 0 !important;
+        }
+        .profile-parent{
+            flex-direction: column-reverse;
+            margin: 40px 0 0 0;
+        }
+        .profile-options{
+            display: flex;
+            justify-content:space-between;
+        }
+        .profile-details{
+            margin: 25px 0 0;
+        }
+        .profile-options .highlighted-btn{
+            margin: 0 !important;
+        }
+        .profile-options, .profile-details-role{
+            text-align: center;
+        }
+
+        
+    }
+    @media screen and (max-width:375px){
+        .profile-picture{
+            height: 275px;
+            width: 275px;
+            margin-top: -90px;
+        }
+        .profile-details{
+            width: 90%;
+        }
+    }
+
+
+
+    
+
+   
+    
+   
+    
+    
+    
+    .btn {
+    border-radius: 50px;
+    padding: 14px 0;
+    width: 160px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "Poppins SemiBold";
+    }
+    
+    .btn:active {
+    transform: translateY(2px);
+    }
+    
+    .primary-btn {
+    color: var(--white);
+    border: 2px solid linen;
+    font-size: 12px;
+    background-color: #1f2235;
+    }
+    /* @media only screen and (max-width: 414px) {
+    .primary-btn {
+    font-size: 13px;
+    }
+    } */
+    
+    .primary-btn:hover {
+    color: aliceblue;
+    border: 2px solid #ff5823;
+    background-color: #1f2235;
+    }
+    
+    .highlighted-btn {
+    color: var(--white);
+    
+    font-size: 12px;
+    background-color: #ff5823;
+    }
+    @media only screen and (max-width: 568px) {
+    .highlighted-btn {
+    z-index: -900;
+    }
+    }
+    
+    .red-border {
+    border: 1px solid var(--error-message) !important;
+    }
+    
+    .fade-in {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 0.8s ease;
+    }
+    
+    
+    
+    
+    
+    

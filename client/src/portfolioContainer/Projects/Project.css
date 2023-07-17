@@ -1,0 +1,178 @@
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+
+
+hr{
+   display:block;
+   margin:0 auto;
+   height:10px;
+   width:250px;
+   
+   border:none;
+   border: 3px solid #f00000;
+  background-color: var(--dark-orange);
+
+   
+ }
+
+
+/*body{
+   
+   width:100%;
+   display:flex;
+   min-height: 800vh;
+   justify-content: center;
+   align-items: center;
+   line-height: 1.5;
+   background:radial-gradient(#e5e5e5, #ffff,#e5e5e5);
+   
+
+}*/
+
+
+
+.grand-parent{
+   width: 100vw;
+   height: auto;
+   
+   
+   
+}
+.grand-parent h2{
+   
+   font-size: 4rem;
+   color: var(--dark-orange);
+   text-align: center;
+}
+ .row {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    
+    flex-wrap: wrap;
+   
+    justify-content: space-around;
+     transition: all 0.2 linear;
+ }
+ .card{
+
+   height: 460px;
+ flex: 1 1 290px;
+   background: aliceblue;
+   box-shadow: 0 0 15px rgba(116, 102, 102, 0.4);
+ margin: 20px;
+ 
+
+}
+
+
+.card:hover{
+   box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+}
+.card body{
+
+   padding:3rem 0 !important;
+}
+.card-title{ 
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   padding-top: 2rem;
+   margin: 0.5rem 5%;
+}
+.card-text{
+   margin:0.5rem 5% ;
+   line-height: normal;
+   font-size: 1rem;
+   padding: 0.4rem 1.9rem;
+   padding-bottom: 10px;
+   
+}
+
+.button{
+   display: flex;
+   column-gap: 1rem;
+   text-align: center;
+   border-radius: 5px;
+   margin: 0.5rem;
+   padding: 10px 20px;
+   
+
+}
+.button .btn-primary{
+   border-color: var(--dark-orange);
+   width: 100%;
+    
+    
+    font-size: 12px;
+    background-color:var(--dark-orange);
+    
+}
+
+.button .btn-primary:hover{
+   background-color: transparent;
+   color:black;
+}
+
+.card-img-top{
+   
+
+   border-radius: 1rem 1rem 0 0;
+   transform: scale(1);
+   transition: transform 0.5s ease;
+}
+.overflow{
+   overflow: hidden;
+}
+.card-img-top:hover{
+   transform: scale(1.8);
+}
+
+@media screen and (max-width: 768px){
+   .grand-parent{
+      height: auto;
+   }
+   .card{
+      width: 290px;
+      height: 450px;
+      margin: 10px;
+   }
+}
+@media screen and (max-width: 375px){
+   .grand-parent{
+      height: auto;
+   }
+   .card{
+      width: 300px;
+      height: 500px;
+      margin: 5px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
