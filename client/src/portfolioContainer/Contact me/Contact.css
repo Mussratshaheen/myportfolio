@@ -1,4 +1,6 @@
-
+#contact{
+  height: 100vh;
+}
 h2{
   color: var(--dark-orange);
   text-align: center;

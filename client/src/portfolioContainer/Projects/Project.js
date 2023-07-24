@@ -1,14 +1,15 @@
 import React from "react";
 import "./Project.css";
+import img0 from "../../assets/Home/quote.png";
 import img1 from "../../assets/Home/drum.png";
 import img3 from "../../assets/Home/img.png";
-import img2 from "../../assets/Home/markdown2.png";
+import img2 from "../../assets/Home/porti.png";
 
 import img4 from "../../assets/Home/calculator.png";
 import img5 from "../../assets/Home/dashboard02.png";
 const Card = () => {
   return (
-
+<div id="project" className="project" name="project">
     
     <div className="grand-parent" style={{background:"radial-gradient(#e5e5e5, #ffff,#e5e5e5)"}}>
  <h2>projects</h2>
@@ -23,7 +24,7 @@ const Card = () => {
       
           <div className="card text-center">
             <div className="overflow">
-              <img src="http://howtocoder.com/img/Random-Quote-Machine.PNG" className="card-img-top" alt="..."style={{ width: "30rem", height: "27rem" }} />
+              <img src={img0} className="card-img-top" alt="img0"style={{ width: "30rem", height: "27rem" }} />
             </div>
             <div className="card-body text-dark">
               <h4 className="card-title">Quote-Machine</h4>
@@ -148,19 +149,20 @@ I create this using HTML, JavaScript, CSS, Bootstrap.
               <img src={img2} className="card-img-top" alt="image2"style={{ width: "30rem", height: "27rem" }} />
             </div>
             <div className="card-body text-dark">
-              <h4 className="card-title">Markdown Previewer</h4>
+              <h4 className="card-title">Portfolio</h4>
               <p className="card-text text-secondary">
-              Markdown uses a simple formatting syntax to accomplish the same thing that HTML does, but it is simpler than HTML.I create this using html,css and javascript.
+              This is my first react project in which I have make my Personal Portfolio.This is fully responsive in all screen sizes.
+              In this project I uses different dependencies of react.After completing my project in react I have deploy it on Github.
               </p>
               <div className="button">
                 <a
-                  href="https://mussratshaheen.github.io/mark-down-previewer/"
+                  href="https://mussratshaheen.github.io/myportfolio/"
                   className="btn btn-primary"
                 >
                   Live Preview
                 </a>
                 <a
-                  href="https://github.com/Mussratshaheen/mark-down-previewer"
+                  href="https://github.com/Mussratshaheen/myportfolio"
                   className="btn btn-primary"
                 >
                   Github
@@ -228,6 +230,7 @@ application.
 
 
       </div>
+    </div>
     </div>
   );
 };

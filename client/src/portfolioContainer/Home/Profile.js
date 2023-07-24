@@ -19,7 +19,7 @@ const Profile = () => {
             <div className="cols-icon">
 
             
-              <a href=" https://github.com/Mussratshaheen">
+              <a href=" https://www.facebook.com">
                 <i className="fa fa-facebook-square"></i>
               </a>
               <a href="https://www.google.com">

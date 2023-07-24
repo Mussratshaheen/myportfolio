@@ -5,11 +5,13 @@ import './Home.css';
 
 const Home = () => {
     return (
+        <div id="home" className="home" name="home">
         <div className='home-container'> 
         
             <Profile/>
             <Footer/>
             
+        </div>
         </div>
     );
 }

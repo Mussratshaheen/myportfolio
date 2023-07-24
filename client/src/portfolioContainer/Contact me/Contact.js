@@ -34,7 +34,9 @@ const Contact = () => {
 
 
   return (
+    
     <div className="container-fluid">
+    <div id="contact" className="contact" name="contact">
     <h2  style={{fontSize: "3rem", marginTop:"4rem"}}>Feel Free to Contact me</h2>
     <hr style={{ marginBottom:"4rem"}}/>
    <div className="para">
@@ -96,6 +98,7 @@ const Contact = () => {
       </Form>
      
            
+    </div>
     </div>
     </div>
   );

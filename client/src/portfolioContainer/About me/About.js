@@ -17,6 +17,7 @@ import Typical from "react-typical";
 
 
 const AboutPageStyles = styled.div`
+
   padding: 10rem 0 10rem 0;
   background: radial-gradient(#e5e5e5, #ffff,#e5e5e5);
   marginTop:30rem;
@@ -127,9 +128,9 @@ const AboutPageStyles = styled.div`
 
 const About= () => {
   return (
-    <>
+    < div id="about" className="about" name="about">
       <AboutPageStyles>
-        <div className="container">
+        <div className="container" >
         <h2  style={{fontSize: "4rem", marginTop:"1rem"}}>About me</h2>
     <hr style={{ marginBottom:"4rem"}}/>
    <div className="para">
@@ -267,7 +268,7 @@ const About= () => {
         
       </AboutPageStyles>
       
-    </>
+    </div>
   );
 }
 export default About;
